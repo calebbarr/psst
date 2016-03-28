@@ -67,8 +67,6 @@ def paste_url(response):
 def ui(key):
     try:
         session_data = server.cache.get(key)
-        print "these are names: {names}".format(names=head(session_data['recipients']))
-        print "these are session_data['recipients']: {names}".format(names=session_data['recipients'])
         return render_template('psst.html', names=session_data['recipients'], also_to=also_to(tail(session_data['recipients'])),key=key)
     except:
         return render_template("secret.html", link="/")
