@@ -1,0 +1,27 @@
+<!doctype html>
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='psst.css') }}">
+{% extends "bootstrap/base.html" %}
+{% block title %}Psst!{% endblock %}
+
+{% block content %}
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+  <h1 style="padding-left:20%;color:#d1db2f;" >Psst{% if names %}, {{names[0]}}{% endif %}!</h1> 
+	{% if( also_to) %}<h4 style="padding-left:20%;" >{{ also_to }} ...</h4>{% endif %}
+	
+	<br/>
+	<form id="psst" action="./{{key}}" method="POST">
+		<div class="form-group" style="padding-left:20%;padding-right:20%">
+	  	<textarea id="message" name="message" class="form-control" rows="5" form="psst"></textarea>
+			<input type="hidden" name="key" value={{key}}/>
+			<br/>
+			<input type="password" class="form-control" id="password" name="password" placeholder="Password">
+			<br/>
+			<button class="btn btn-lg btn-primary btn-block" style="background:#d1db2f;color:#49541A;"type="submit">Psst!</button>
+		</div>
+	</form>
+	 
+{% endblock %}
+
