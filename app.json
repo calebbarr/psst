@@ -1,0 +1,7 @@
+{
+  "name": "psst",
+  "description": "private messaging for slack",
+  "repository": "https://github.com/calebbarr/psst",
+  "logo": "https://s3.amazonaws.com/xbarr_public/secret_to_everyone.png",
+  "keywords": ["slack", "privacy", "chat"]
+}

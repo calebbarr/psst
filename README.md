@@ -17,3 +17,6 @@ In a direct message:
 
 <h2> TODO </h2>
 Convert to [bot user](https://api.slack.com/bot-users) for private, ephemeral responses.
+
+## deploy your own
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
