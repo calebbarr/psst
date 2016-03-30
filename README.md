@@ -11,8 +11,11 @@ In a direct message:
 
 <h3>result</h3>
 <img src="https://s3.amazonaws.com/xbarr_public/psst_usage.png"/>
+<p/>
 <img align="left" width="45%" src="https://s3.amazonaws.com/xbarr_public/psst_input.png"/>
+<p/>
 <img align="right" width="45%" src="https://s3.amazonaws.com/xbarr_public/secret_to_everyone.png"/>
+<p/>
 <img src="https://s3.amazonaws.com/xbarr_public/psst_paste.png"/>
 
 <h2> TODO </h2>
